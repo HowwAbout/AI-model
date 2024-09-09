@@ -48,7 +48,7 @@ def dating_generation(request: DatingGenRequestDto) -> list[DatingGenResponseDto
 
     # Retrieval Chain + Query Analysis
     # for local test: "combined_faiss_index"
-    # for deployment: "app.combined_faiss_index"
+    # for deployment: "app/combined_faiss_index"
     print("Retrieval Chain")
     retrieval_chain = get_retrieval_chain(
         template=query_gen_template,
