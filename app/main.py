@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 
 from .routers import dating_generation_router
+from fastapi.middleware.cors import CORSMiddleware
+
 
 # Config
 load_dotenv()
