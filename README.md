@@ -62,7 +62,7 @@ HowAbout의 RAG Application의 핵심 기능은 클라이언트의 요청을 바
 ## Development Process
 
 1. RAG
-    - RAG Practice Github Repository
+    - [RAG Practice Github Repository](https://github.com/jwywoo/RAG)
     - AGILE: 최소 작동 단위의 RAG 구현이후 기능별 고도화 진행
         - MVP RAG
         ![MVP RAG](/static/project/rag_mvp.png)
@@ -74,7 +74,7 @@ HowAbout의 RAG Application의 핵심 기능은 클라이언트의 요청을 바
         ![MVP RAG](/static/project/rag_mvp_faiss_query_prompt.png)
 
 2. RAG API
-    - RAG Service Github Repository
+    - [RAG Service Github Repository](https://github.com/jwywoo/RAG)
     - Turning RAG Practice into API using FastAPI
     - Same as Service Architecture
 
